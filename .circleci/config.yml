@@ -1,0 +1,10 @@
+version: 2.1
+
+jobs:
+  build:
+    steps:
+      - checkout
+      - run:
+          name: Update backend
+          command: |
+            curl -k "https://iswenzz.com/gitpull?name=simplon_exo"
