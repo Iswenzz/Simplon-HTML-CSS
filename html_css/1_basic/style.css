@@ -13,7 +13,7 @@ hr {
     padding: 5% 20% 5% 20%;
 }
 
-section.center-grid:nth-of-type(even) {
+article:nth-of-type(even) {
     background-color: rgb(220, 220, 220);
 }
 
