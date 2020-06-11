@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+hr {
+    color: rgb(200, 200, 200);
+}
+
+.center-grid {
+    padding: 5% 20% 5% 20%;
+}
+
+section.center-grid:nth-of-type(even) {
+    background-color: rgb(220, 220, 220);
+}
+
+.preview-bg {
+    width: 100vw;
+    height: 100vh;
+}
+
+.summary {
+    border: 2px dashed rgb(200, 200, 200);
+}
