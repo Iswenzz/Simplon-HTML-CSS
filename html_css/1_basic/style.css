@@ -17,6 +17,16 @@ section.center-grid:nth-of-type(even) {
     background-color: rgb(220, 220, 220);
 }
 
+blockquote {
+    background-color: silver;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+audio {
+    width: 100%;
+}
+
 .preview-bg {
     width: 100vw;
     height: 100vh;
@@ -24,4 +34,16 @@ section.center-grid:nth-of-type(even) {
 
 .summary {
     border: 2px dashed rgb(200, 200, 200);
+}
+
+.demography-table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px dotted rgb(180, 180, 180);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(200, 200, 200);
 }
