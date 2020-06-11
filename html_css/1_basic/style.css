@@ -30,6 +30,18 @@ audio {
 .preview-bg {
     width: 100vw;
     height: 100vh;
+    background: 100% 100% url("https://cdn.hipwallpaper.com/i/63/65/jxIbnt.jpg");
+}
+
+.preview-bg-text {
+    margin: 0;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 40vh;
+    padding-bottom: 45vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: bold;
 }
 
 .summary {
