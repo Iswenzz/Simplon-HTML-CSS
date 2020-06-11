@@ -1,0 +1,75 @@
+* {
+    font-family: 'Noto Sans HK';
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.image-header {
+    width: 100vw;
+    height: 60vh;
+    background: url("../images/curology-6CJg-fOTYs4-unsplash.jpg");
+    background-repeat: cover;
+    text-align: center;
+}
+
+.image-header h1 {
+    font-size: 4em;
+    font-weight: 900;
+    padding-top: 15vh;
+}
+
+.image-header h2 {
+    font-size: 2em;
+    padding-top: 4vh;
+}
+
+.page-spacing {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.intro-col {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.product {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.product-header h2 {
+    font-size: 4em;
+}
+
+.product-header h3 {
+    font-size: 2em;
+}
+
+.product-col {
+    padding: 1em;
+}
+
+.footer {
+    padding: 5%;
+    background-color: #acd9ff;
+}
+
+.footer h2 {
+    font-size: 2em;
+}
+
+.footer h3 {
+    font-size: 1em;
+}
+
+.footer-copyright {
+    background-color: #2799fa;
+}
+
+.footer-contact header h3 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
