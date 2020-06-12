@@ -10,6 +10,10 @@
 	border-width: 2px;
 }
 
+.footer a:visited, a:active, a:hover, a {
+	color: white !important;
+}
+
 .footer h2 {
 	font-size: 2em;
 }
