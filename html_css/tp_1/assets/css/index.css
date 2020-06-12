@@ -49,6 +49,10 @@ html, body {
 	cursor: pointer;
 }
 
+.product-header {
+	color: rgba(30, 30, 30, 0.5);
+}
+
 .product-header h2 {
 	font-size: 4em;
 }
