@@ -9,8 +9,8 @@ html, body {
 .image-header {
 	width: 100vw;
 	height: 60vh;
-	background: url("../images/curology-6CJg-fOTYs4-unsplash.jpg");
-	background-repeat: cover;
+	background: url("../images/composable-page-20-21-1-1600x700.jpg");
+	background-repeat: cover !important;
 	text-align: center;
 }
 
@@ -18,11 +18,13 @@ html, body {
 	font-size: 4em;
 	font-weight: 900;
 	padding-top: 15vh;
+	color: white;
 }
 
 .image-header h2 {
 	font-size: 2em;
 	padding-top: 4vh;
+	color: white;
 }
 
 .page-spacing {
@@ -38,6 +40,10 @@ html, body {
 .product {
 	margin-top: 8%;
 	margin-bottom: 8%;
+}
+
+.product img {
+	cursor: pointer;
 }
 
 .product-header h2 {
