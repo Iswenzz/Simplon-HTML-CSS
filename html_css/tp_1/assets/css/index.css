@@ -6,6 +6,12 @@ html, body {
 	overflow-x: hidden;
 }
 
+.page-spacing {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+/* Image Header */
 .image-header {
 	width: 100vw;
 	height: 60vh;
@@ -27,16 +33,13 @@ html, body {
 	color: white;
 }
 
-.page-spacing {
-	padding-left: 15%;
-	padding-right: 15%;
-}
-
+/* Introduction */
 .intro-col {
 	margin-top: 8%;
 	margin-bottom: 8%;
 }
 
+/* Products */
 .product {
 	margin-top: 8%;
 	margin-bottom: 8%;
