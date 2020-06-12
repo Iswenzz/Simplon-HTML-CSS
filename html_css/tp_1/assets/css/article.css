@@ -1,0 +1,36 @@
+* {
+	font-family: 'Noto Sans HK';
+	color: rgba(30, 30, 30, 0.5);
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+.article-section {
+	padding: 8% 15% 8% 15%;
+}
+
+.article-section header h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.article-section header h2 {
+	font-size: 1em;
+}
+
+.article-section img, .card-img-overlay {
+	cursor: pointer;
+}
+
+.article-aside {
+	padding: 8% 5% 8% 5%;
+}
+
+.card-img-overlay h3 {
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	-webkit-text-stroke: 1px black;
+}
