@@ -27,12 +27,16 @@
 	font-size: 0.8em;
 }
 
+.footer-contact header h2 {
+	color: white;
+}
+
 .footer-contact header h3 {
 	padding-top: 3%;
 	padding-bottom: 3%;
+	color: white;
 }
 
-.footer-contact-button a {
-	cursor: pointer;
+.footer-contact-button path {
 	color: white;
 }

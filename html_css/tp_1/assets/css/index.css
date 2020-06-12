@@ -1,5 +1,6 @@
 * {
 	font-family: 'Noto Sans HK';
+	color: rgba(30, 30, 30, 0.5);
 }
 
 html, body {
@@ -31,6 +32,7 @@ html, body {
 	font-size: 2em;
 	padding-top: 4vh;
 	color: white;
+	font-style: italic;
 }
 
 /* Introduction */
@@ -47,10 +49,6 @@ html, body {
 
 .product img {
 	cursor: pointer;
-}
-
-.product-header {
-	color: rgba(30, 30, 30, 0.5);
 }
 
 .product-header h2 {
