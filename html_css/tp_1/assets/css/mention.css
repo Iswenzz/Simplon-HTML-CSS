@@ -1,0 +1,21 @@
+* {
+	font-family: 'Noto Sans HK';
+	color: rgba(30, 30, 30, 0.5);
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+.article-section {
+	padding: 8% 15% 8% 15%;
+}
+
+.article-section header h1 {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.article-section header h2 {
+	font-size: 1em;
+}
