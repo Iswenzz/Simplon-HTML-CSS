@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run:
           name: Update repo on iswenzz.com
-          command: 'curl -k "https://iswenzz.com/gitpull?name=simplon_exo"'
+          command: 'curl -k "https://iswenzz.com/gitpull?name=simplon_html_css"'
