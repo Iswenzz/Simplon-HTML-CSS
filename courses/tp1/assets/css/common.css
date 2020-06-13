@@ -1,0 +1,23 @@
+* {
+	font-family: 'Noto Sans HK';
+	color: rgba(30, 30, 30, 0.5);
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+.white-anchor a:hover, .footer-copyright a:active, .footer-copyright a:visited {
+	color: white;
+	outline: none;
+}
+
+.my-8p {
+    margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.px-15p {
+    padding-left: 15%;
+	padding-right: 15%;
+}

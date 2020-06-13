@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mentions légales</title>
+	<link rel="stylesheet" href="assets/css/common.css">
 	<link rel="stylesheet" href="assets/css/navbar.css">
 	<link rel="stylesheet" href="assets/css/footer.css">
 	<link rel="stylesheet" href="assets/css/mention.css">
@@ -25,14 +26,14 @@
 			
 			<section class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="/">ACCUEIL</a>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">ACCUEIL</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#presentation">PRÉSENTATION</a>
+						<a class="nav-link" href="index.html#presentation">PRÉSENTATION</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#gammes">GAMMES</a>
+						<a class="nav-link" href="index.html#gammes">GAMMES</a>
 					</li>
 				</ul>
 			</section>
@@ -42,7 +43,7 @@
 	<main>
 		<!-- Article -->
 		<article id="article" class="row justify-content-center">
-			<section class="article-section">
+			<section class="mention-section">
 				<header class="m-3">
 					<h1 class="py-2">Mentions légales</h2>
 				</header>
@@ -67,9 +68,11 @@
 					<h2>Murenam te accusante defenderem.</h2>
 					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Minime vero, inquit ille, consentit. Ego vero volo in virtute vim esse quam maximam; Ratio quidem vestra sic cogit. Quid, de quo nulla dissensio est?</h3>
 				</header>
-				<button type="button" class="btn btn-outline-primary pt-3 pb-3">
-					<a href="mailto:example@gmail.com">CONTACTONS-NOUS</a>
-				</button>
+				<form action="mailto:alexis.nardiello.simplon@gmail.com" method="GET">
+					<button type="submit" class="btn btn-outline-primary pt-3 pb-3">
+						CONTACTONS-NOUS
+					</button>
+				</form>
 				<section class="row justify-content-center m-2">
 					<div class="col-xs mx-3 mt-4 footer-contact-button">
 						<a href="#"><i class="fab fa-instagram"></i></a>
@@ -85,7 +88,9 @@
 		</section>
 		<!-- Copyright -->
 		<section id="copyright" class="footer-copyright">
-			<h4 class="p-5 m-0 text-center">© monartisanchaise - 2020 - mentions légales</h4>
+			<h4 class="p-5 m-0 text-center">
+				<a class="white-anchor" href="mention.html">© monartisanchaise - 2020 - mentions légales</a>
+			</h4>
 		</section>
 	</footer>
 </body>
