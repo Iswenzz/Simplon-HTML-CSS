@@ -7,7 +7,7 @@ html, body {
 	overflow-x: hidden;
 }
 
-.white-anchor a:hover, .footer-copyright a:active, .footer-copyright a:visited {
+.white-anchor a:hover, .white-anchor a:active, .white-anchor a:visited {
 	color: white;
 	outline: none;
 }
