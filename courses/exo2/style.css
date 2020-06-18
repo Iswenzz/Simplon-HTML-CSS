@@ -1,8 +1,12 @@
-.intro {
-    padding-top: 7%;
-    padding-bottom: 7%;
-}
-
 .intro-text {
     line-height: 1.5em;
+}
+
+.jumbotron {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
 }
