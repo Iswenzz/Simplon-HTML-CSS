@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Form</title>
+	<link rel="stylesheet" href="style.css">
 	<!-- Bootstrap & JQuery & Google Font -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js" integrity="sha256-+Q/z/qVOexByW1Wpv81lTLvntnZQVYppIL1lBdhtIq0=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+HK">
@@ -23,8 +24,11 @@
 		</nav>
 	</header>
 
-	<main>
-		<form class="container py-5">
+	<main class="container">
+		<form class="my-5 p-5">
+			<header>
+				<h1 class="text-center pb-4">Inscription</h1>
+			</header>
 			<!-- Prénon & Nom -->
 			<section class="form-row">
 				<div class="form-group col-md-6">
@@ -88,8 +92,10 @@
 				</div>
 			</section>
 			<!-- Submit & Reset -->
-			<button type="submit" class="btn btn-primary">Envoyer</button>
-			<button type="reset" class="btn btn-danger">Réinitialiser</button>
+			<section>
+				<button type="submit" class="btn btn-primary m-1">Envoyer</button>
+				<button type="reset" class="btn btn-danger m-1">Réinitialiser</button>
+			</section>
 		</form>
 	</main>
 </body>
