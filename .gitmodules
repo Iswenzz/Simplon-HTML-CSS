@@ -4,3 +4,6 @@
 [submodule "courses/tp2"]
 	path = courses/tp2
 	url = https://github.com/Iswenzz/Simplon-Bookmark-Landing-Page.git
+[submodule "courses/tp3"]
+	path = courses/tp3
+	url = https://github.com/Iswenzz/Simplon-Grenoble.git
