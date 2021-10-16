@@ -1,9 +1,9 @@
-[submodule "courses/tp1"]
-	path = courses/tp1
+[submodule "courses/tp1-artisan"]
+	path = courses/tp1-artisan
 	url = git@github.com:Iswenzz/Simplon-Chaises-Artisan.git
-[submodule "courses/tp2"]
-	path = courses/tp2
+[submodule "courses/tp2-bookmark-landing-page"]
+	path = courses/tp2-bookmark-landing-page
 	url = git@github.com:Iswenzz/Simplon-Bookmark-Landing-Page.git
-[submodule "courses/tp3"]
-	path = courses/tp3
+[submodule "courses/tp3-grenoble"]
+	path = courses/tp3-grenoble
 	url = git@github.com:Iswenzz/Simplon-Grenoble.git
